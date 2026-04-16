@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+  Copyright 2025 Adobe. All rights reserved.
+  This file is licensed to you under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License. You may obtain a copy
+  of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed under
+  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+  OF ANY KIND, either express or implied. See the License for the specific language
+  governing permissions and limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ====================================================================== -->
+    <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
+    <!-- ====================================================================== -->
+    <parent>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>parent-oss</artifactId>
+        <version>10</version>
+        <relativePath />
+    </parent>
+
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T  D E S C R I P T I O N                                   -->
+    <!-- ====================================================================== -->
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>mcp-server-contribs-reactor</artifactId>
+    <packaging>pom</packaging>
+    <name>Adobe Experience Manager MCP Server Contributions (Reactor Project)</name>
+    <version>0.1.1-SNAPSHOT</version>
+    <description>The reactor project for the AEM MCP Server Contributions</description>
+    <inceptionYear>2025</inceptionYear>
+
+    <scm>
+        <connection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</developerConnection>
+        <url>https://github.com/adobe/cq-quickstart-mcp-server</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <project.java.version>17</project.java.version>
+    </properties>
+
+    <!-- ====================================================================== -->
+    <!-- M O D U L E S                                                          -->
+    <!-- ====================================================================== -->
+    <modules>
+        <module>bundles/mcp-server-contribs</module>
+        <module>content</module>
+    </modules>
+</project>

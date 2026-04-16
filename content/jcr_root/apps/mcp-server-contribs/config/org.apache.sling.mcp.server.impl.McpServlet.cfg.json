@@ -1,0 +1,3 @@
+{
+  "instructions": "This MCP server provides access to an AEM/CQ Quickstart running locally. Exposed tools and information always reference the AEM runtime and not local projects or files."
+}

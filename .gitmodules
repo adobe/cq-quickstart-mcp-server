@@ -1,0 +1,3 @@
+[submodule "ext/whiteboard"]
+	path = ext/whiteboard
+	url = https://github.com/apache/sling-whiteboard.git

@@ -12,5 +12,4 @@
 -->
 <workspaceFilter version="1.0">
     <filter root="/apps/mcp-server-contribs"/>
-    <filter root="/libs/sling/mcp/prompts"/>
 </workspaceFilter>

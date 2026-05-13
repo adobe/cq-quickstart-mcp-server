@@ -50,7 +50,8 @@
                         <Service-Component>${service-component},
                             OSGI-INF/io.modelcontextprotocol.json.jackson2.JacksonMcpJsonMapperSupplier.xml,
                             OSGI-INF/io.modelcontextprotocol.json.schema.jackson2.JacksonJsonSchemaValidatorSupplier.xml,
-                            OSGI-INF/org.apache.sling.mcp.server.impl.contribs*.xml
+                            OSGI-INF/org.apache.sling.mcp.server.impl.contribs*.xml,
+                            OSGI-INF/org.apache.sling.mcp.server.impl.contribs.log*.xml
                         </Service-Component>
                         <!-- 1. make sure optional and unwanted dependencies stay optional
                              2. downgrade Jackson dependency to what is available in AEM Cloud Service

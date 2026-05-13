@@ -45,10 +45,13 @@
                 <configuration>
                     <instructions>
                         <Embed-Dependency>*;scope=compile;inline=true</Embed-Dependency>
-                        <!-- manually add the SCR descriptors from the mcp-json-jackson2 bundle since those are not auto-detected by bnd -->
+                        <!-- manually add the SCR descriptors from the mcp-json-jackson2 bundle since those are not auto-detected by bnd,
+                             and explicitly control which components get embedded from the Sling MCP contributions bundle -->
                         <Service-Component>${service-component},
                             OSGI-INF/io.modelcontextprotocol.json.jackson2.JacksonMcpJsonMapperSupplier.xml,
-                            OSGI-INF/io.modelcontextprotocol.json.schema.jackson2.JacksonJsonSchemaValidatorSupplier.xml
+                            OSGI-INF/io.modelcontextprotocol.json.schema.jackson2.JacksonJsonSchemaValidatorSupplier.xml,
+                            OSGI-INF/org.apache.sling.mcp.server.impl.contribs*.xml,
+                            OSGI-INF/org.apache.sling.mcp.server.impl.contribs.log*.xml
                         </Service-Component>
                         <!-- 1. make sure optional and unwanted dependencies stay optional
                              2. downgrade Jackson dependency to what is available in AEM Cloud Service
@@ -133,6 +136,12 @@
             <groupId>io.modelcontextprotocol.sdk</groupId>
             <artifactId>mcp-json-jackson2</artifactId>
             <version>1.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.mcp-server-contributions</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

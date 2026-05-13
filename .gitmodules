@@ -1,0 +1,3 @@
+[submodule "ext/mcp-server-contributions"]
+	path = ext/mcp-server-contributions
+	url = https://github.com/apache/sling-org-apache-sling-mcp-server-contributions.git

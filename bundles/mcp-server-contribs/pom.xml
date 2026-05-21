@@ -29,7 +29,7 @@
     <artifactId>com.adobe.aem.mcp-server-contribs</artifactId>
     <packaging>bundle</packaging>
     <name>Adobe Experience Manager MCP Server Contributions</name>
-    <version>0.1.5-SNAPSHOT</version>
+    <version>0.1.6</version>
 
     <properties>
         <project.java.version>17</project.java.version>
@@ -212,7 +212,7 @@
         <connection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</connection>
         <developerConnection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</developerConnection>
         <url>https://github.com/adobe/cq-quickstart-mcp-server</url>
-        <tag>HEAD</tag>
+        <tag>com.adobe.aem.mcp-server-contribs-0.1.6</tag>
     </scm>
 </project>
 

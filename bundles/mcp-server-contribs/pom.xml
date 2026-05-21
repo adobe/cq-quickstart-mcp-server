@@ -84,6 +84,14 @@
                 <artifactId>sling-maven-plugin</artifactId>
                 <version>3.0.4</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <doclint>none</doclint>
+                    <additionalJOption>--ignore-source-errors</additionalJOption>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -200,4 +208,11 @@
         </dependency>
      </dependencies>
 
-</project>	
+    <scm>
+        <connection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</developerConnection>
+        <url>https://github.com/adobe/cq-quickstart-mcp-server</url>
+        <tag>HEAD</tag>
+    </scm>
+</project>
+

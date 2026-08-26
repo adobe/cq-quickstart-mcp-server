@@ -49,7 +49,6 @@
     <!-- ====================================================================== -->
     <modules>
         <module>bundles/mcp-server-contribs</module>
-        <module>ext/mcp-server-contributions</module>
         <module>content</module>
     </modules>
 </project>

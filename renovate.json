@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["maven"],
+      "matchPackageNames": [
+        "io.modelcontextprotocol.sdk:mcp-json-jackson2",
+        "io.modelcontextprotocol.sdk:mcp-core"
+      ],
+      "groupName": "Model Context Protocol SDK"
+    }
   ]
 }

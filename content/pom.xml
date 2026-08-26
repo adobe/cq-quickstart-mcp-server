@@ -99,7 +99,7 @@
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>com.adobe.aem.mcp-server-contribs</artifactId>
-            <version>${project.version}</version>
+            <version>0.2.0</version>
         </dependency>
     </dependencies>
 

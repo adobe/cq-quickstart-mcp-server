@@ -57,6 +57,7 @@
                              2. downgrade Jackson dependency to what is available in AEM Cloud Service
                          -->
                         <Import-Package>
+                            java.net.http;resolution:=optional,
                             org.graalvm.polyglot;resolution:=optional,
                             org.jcodings;resolution:=optional,
                             org.jcodings.specific;resolution:=optional,

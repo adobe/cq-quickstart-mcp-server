@@ -31,14 +31,14 @@
     <artifactId>com.adobe.aem.mcp-server-contribs-content</artifactId>
     <packaging>content-package</packaging>
     <name>Adobe Experience Manager MCP Server Contributions Content Package</name>
-    <version>0.2.0</version>
+    <version>0.2.1-SNAPSHOT</version>
     <description>Content package for the AEM MCP Server Contributions module</description>
 
     <scm>
         <connection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</connection>
         <developerConnection>scm:git:https://github.com/adobe/cq-quickstart-mcp-server.git</developerConnection>
         <url>https://github.com/adobe/cq-quickstart-mcp-server</url>
-        <tag>com.adobe.aem.mcp-server-contribs-content-0.2.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <!-- ====================================================================== -->

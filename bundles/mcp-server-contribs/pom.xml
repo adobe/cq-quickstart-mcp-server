@@ -71,6 +71,7 @@
                             io.micrometer.core.instrument.search;resolution:=optional,
                             javax.annotation;resolution:=optional,
                             javax.annotation.meta;resolution:=optional,
+                            org.jspecify.annotations;resolution:=optional,
                             reactor.blockhound;resolution:=optional,
                             reactor.blockhound.integration;resolution:=optional,
                             sun.misc;resolution:=optional,
@@ -216,4 +217,3 @@
         <tag>HEAD</tag>
     </scm>
 </project>
-

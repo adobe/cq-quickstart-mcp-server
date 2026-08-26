@@ -11,6 +11,14 @@
         "io.modelcontextprotocol.sdk:mcp-core"
       ],
       "groupName": "Model Context Protocol SDK"
+    },
+    {
+      "matchManagers": ["maven"],
+      "matchPackageNames": [
+        "org.commonmark:commonmark",
+        "org.commonmark:commonmark-ext-yaml-front-matter"
+      ],
+      "groupName": "CommonMark"
     }
   ]
 }

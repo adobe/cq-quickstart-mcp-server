@@ -10,6 +10,6 @@ For installation and setup instructions, see [Local development with AI tools](h
 
 | AEM version | Support status | MCP server release |
 | --- | --- | --- |
-| AEM 6.5 LTS | Supported | [`0.1.6`](https://github.com/adobe/cq-quickstart-mcp-server/releases/tag/0.1.6) |
-| AEM-CS SDK `2026.2.24678.20260226T154829Z-260200` through `2026.6.XXXX.202606YYYYYYZ-260600` | Supported | [`0.1.6`](https://github.com/adobe/cq-quickstart-mcp-server/releases/tag/0.1.6) |
+| AEM 6.5 LTS | Supported | [`0.1.6`](https://github.com/adobe/cq-quickstart-mcp-server/releases/tag/com.adobe.aem.mcp-server-contribs-content-0.1.6) |
+| AEM-CS SDK `2026.2.24678.20260226T154829Z-260200` through `2026.6.XXXX.202606YYYYYYZ-260600` | Supported | [`0.1.6`](https://github.com/adobe/cq-quickstart-mcp-server/releases/tag/com.adobe.aem.mcp-server-contribs-content-0.1.6) |
 | AEM-CS SDK `2026.6.XXXX.202606YYYYYYZ-260600` or newer | Supported, but no release of this project has been published yet for this range | Not yet released |
